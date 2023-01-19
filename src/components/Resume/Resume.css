@@ -1,0 +1,48 @@
+.subTitle {
+  font-weight: bold;
+  font-size: 14pt;
+}
+
+.table {
+  width: 80%;
+  padding: 20px 40px;
+  line-height: 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.item {
+  text-align: left;
+  display: flex;
+  justify-content: flex-start;
+}
+@media only screen and (max-width: 700px) {
+  .table {
+    width: 100%;
+  }
+
+  .item {
+    flex-direction: column;
+  }
+}
+
+.time {
+  min-width: 150px;
+}
+
+.skills {
+  align-self: center;
+  width: 100%;
+  margin-top: 10px;
+  display: grid;
+
+  grid-template-columns: repeat(auto-fill, minmax(120px, 1fr));
+  justify-items: center;
+}
+
+.skill {
+  width: 90%;
+  height: auto;
+  border-radius: 100%;
+  padding: 10px;
+}

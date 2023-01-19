@@ -1,0 +1,39 @@
+#about {
+  height: 100vh;
+}
+
+.intro {
+  /* right: auto;
+  left: auto; */
+  display: flex;
+  flex-wrap: wrap;
+  padding: 40px;
+  gap: 0;
+}
+
+.intro .pic,
+.intro .text {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.intro .pic {
+  flex: 2;
+}
+
+.intro .text {
+  flex: 3;
+  min-width: 300px;
+  flex-direction: column;
+  align-items: flex-start;
+}
+.intro .text .button {
+  margin-top: 20px;
+}
+
+.intro img {
+  width: 250px;
+  height: 250px;
+  border-radius: 100%;
+}

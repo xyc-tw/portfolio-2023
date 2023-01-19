@@ -32,7 +32,7 @@ function Footer() {
         </div>
         <hr />
         <div className="copyRight">
-          <p>© 2022 Hsinyu Chen</p>
+          <p>© 2023 Hsinyu Chen</p>
         </div>
       </div>
     </div>

@@ -1,5 +1,4 @@
 import React, { Component } from "react";
-import logo from './logo.svg';
 import './App.css';
 import Navigation from "./components/Navigation/Navigation";
 import Home from "./components/Home/Home";
@@ -49,7 +48,7 @@ class App extends Component {
   setNavi = (section) => {
     var navis = document.getElementsByClassName("navi");
     for (let nav of navis) {
-      if (section != nav.getAttribute("href").substring(1)) {
+      if (section !== nav.getAttribute("href").substring(1)) {
         nav.classList.remove("active");
       } else nav.classList.add("active");
     }

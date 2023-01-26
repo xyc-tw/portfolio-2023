@@ -16,11 +16,11 @@ function Projects() {
           <p>The project is based on the papers "Image Style Transfer Using Convolutional Neural Networks" and "Perceptual Losses for Real-Time Style Transfer and Super-Resolution" in 2016. The architecture contains 2 ANN models, one CNN model for style transfer and one pre-trained VGG19 model for calculating loss function. It's deployed in Render using Flask and p5.js.
           </p>
           <div className="buttons">
-            <div className="button">
+            {/* <div className="button">
               <a href="https://horror-manga-style-transfer.onrender.com/" target="_blank">
                 <span>Live</span>
               </a>
-            </div>
+            </div> */}
             <div className="button">
               <a href="https://github.com/xyc-tw/horror-manga-style-transfer" target="_blank">
                 <span>Code</span>
